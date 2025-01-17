@@ -1,0 +1,43 @@
+/* General styles */
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  transition: background-color 1s ease-in-out;
+}
+
+canvas {
+  display: block;
+}
+
+/* "STACK FORGE" text styles */
+.sf-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 90px;
+  font-weight: bolder;
+  color: #00b700;
+  text-shadow: 0 0 20px #00b700, 0 0 30px #00b700, 0 0 40px #00b700;
+  opacity: 0;
+}
+
+/* Navigation button styles */
+.nav-button {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  background-color: #00b700;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #006400;
+  color: black;
+}
